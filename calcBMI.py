@@ -11,6 +11,5 @@ height = 180
 
 BMI = weight / ((height/100)**2)
 #Rounding BMI to decimal place
-acBMI = round(BMI,2)
 
-print (acBMI,"kg/m2")
+print(format(BMI,'.2f'))
